@@ -1,39 +1,143 @@
-.App {
-  text-align: center;
+body {
+  background-color: #c8a7c23c;
+  font-family: 'PT Serif', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navy {
+  /* background: linear-gradient(to top, #d3cce3, #e9e4f0); */
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+  height: 4rem;
+  opacity: 0.85;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.next {
+  align-items: right;
+  justify-content: space-between;
+  margin: 21px;
 }
 
-.App-header {
-  min-height: 100vh;
+.next:hover {
+  transform: translateY(2px);
+  margin-top: 2px;
+}
+
+/* .header {
+  align-items: center;
+  justify-content: space-between;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.search-bar {
+  width: 45em;
+  height: 2.5em;
+  border-radius: 7px;
+}
+
+.img--1 {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid #B76E79;
+  transition: transform .2s;
+  border-radius: 7px;
+}
+
+.img--1:hover {
+  transform: scale(1.1);
+  box-sizing: content-box;
+  box-shadow: yellow;
+}
+
+.img--2 {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid #B76E79;
+  transition: transform .2s;
+  border-radius: 7px;
+}
+
+.img--2:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  /* background: linear-gradient(to top, #d3cce3, #e9e4f0); */
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 3rem;
+
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.logos {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.faq {
+  /* background: linear-gradient(to top, #d3cce3, #e9e4f0); */
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#questions {
+  color: #B76E79;
+  font-weight: 500;
+}
+
+.horizontal {
+  background-color: #B76E79;
+}
+
+.card--store {
+  transition: transform .2s;
+  border-radius: 12px;
+
+}
+
+.card--store:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  color: #B76E79;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+.store {
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 0.2em;
+  font-size: 2rem;
+  font-weight: 1000;
+}
+
+.spacing {
+  line-height: 4rem;
+
+}
+
+.links {
+  color: black;
+
+}
+
+.links:hover {
+  text-decoration: none;
 }
